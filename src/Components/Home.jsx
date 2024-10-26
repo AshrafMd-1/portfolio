@@ -3,16 +3,13 @@ import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 import image from "../images/home/bg_home.jpg";
 
-const imageAltText = "An abstract image with mountain and lights";
+const imageAltText = "An abstract image with neon polygons and lights";
 
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
       <img className="background" src={image} alt="" />
-      <div
-        classList="home-text"
-        style={{ color: "white", position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}
-      >
+      <div classList="home-text" className="home-data" style={{ color: "white" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>

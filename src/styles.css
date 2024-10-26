@@ -121,3 +121,32 @@ img.socialIcon {
   width: 30px;
 }
 
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+
+
+
+::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-color: #9e74ff;
+  border-radius: 10px;
+}
