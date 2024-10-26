@@ -1,3 +1,3 @@
 # Ashraf Portfolio
 
-https://ashrafmd-1.github.io/
+ashrafmd-1.github.io/portfolio/
