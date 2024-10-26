@@ -150,3 +150,15 @@ img.socialIcon {
   background-color: #9e74ff;
   border-radius: 10px;
 }
+
+@keyframes slideUpDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
