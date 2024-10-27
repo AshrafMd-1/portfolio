@@ -6,12 +6,19 @@
     "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended"
   ],
-  "plugins": ["react", "prettier", "jsx-a11y"],
+  "plugins": [
+    "react",
+    "prettier",
+    "jsx-a11y"
+  ],
   "parserOptions": {
-    "ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features
-    "sourceType": "module", // Allows for the use of imports
+    "ecmaVersion": 2020,
+    // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module",
+    // Allows for the use of imports
     "ecmaFeatures": {
-      "jsx": true // Allows for the parsing of JSX
+      "jsx": true
+      // Allows for the parsing of JSX
     }
   },
   "env": {
@@ -25,7 +32,12 @@
     }
   },
   "rules": {
-    "prettier/prettier": ["warn", { "endOfLine": "auto" }],
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "react/prop-types": "warn"
   }
 }
