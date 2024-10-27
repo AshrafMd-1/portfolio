@@ -30,7 +30,7 @@ const projectList = [
   },
 ];
 
-const Portfolio = () => {
+const Projects = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
@@ -57,4 +57,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

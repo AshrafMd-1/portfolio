@@ -3,17 +3,10 @@ import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+  "I'm a CSE (Computer Science and Engineering) student studying at Institute of Aeronautical Engineering. I enjoy creating unique and simple apps that help solve people's problems.";
+const skillsList = ["Full stack development", "Machine learning", "Devops", "Cloud computing"];
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I’m a passionate computer science student and proficient MERN developer with a strong foundation in Python, JavaScript, and Java. My expertise spans NLP and machine learning, gained through projects and coursework. I enjoy tackling complex problems and am eager to apply my skills in real-world, impactful technologies.";
 
 const About = () => {
   return (

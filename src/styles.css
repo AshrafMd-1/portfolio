@@ -147,9 +147,10 @@ img.socialIcon {
 
 ::-webkit-scrollbar-thumb
 {
-  background-color: #9e74ff;
+  background-color: #262626;
   border-radius: 10px;
 }
+
 
 @keyframes slideUpDown {
   0% {
