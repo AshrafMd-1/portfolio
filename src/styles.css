@@ -123,7 +123,7 @@ img.socialIcon {
     background-color: #4E567E;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     cursor: pointer;
 }
 
@@ -337,12 +337,16 @@ img.socialIcon {
 
 .project-container .box {
     border-radius: 10px;
-    border: 1px solid rgb(204, 204, 204);
+    border: 2px solid #e0e7ff;
     width: 40%;
     height: 100%;
     flex-direction: column;
     padding: 24px 16px;
     text-align: center;
+}
+
+.project-container .box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-container .box h3 {
@@ -363,6 +367,7 @@ img.socialIcon {
     background-color: #4E567E;
     color: white;
     border: none;
+    font-size: 1rem;
     border-radius: 5px;
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -371,4 +376,9 @@ img.socialIcon {
 .project-container .box .project-link-container button:hover {
     background-color: #6366f1;
     transition: background-color 0.3s;
+}
+
+#projects {
+    background-color: #fafafa;
+    padding: 2rem 0;
 }
