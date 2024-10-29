@@ -99,23 +99,6 @@ a:hover {
     color: #4e567e;
 }
 
-.container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 330px 300px;
-    margin: 20px auto;
-}
-
-.container .box {
-    border-radius: 10px;
-    border: 1px solid rgb(204, 204, 204);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 24px 16px;
-    text-align: center;
-}
-
 img.socialIcon {
     height: 30px;
     width: 30px;
@@ -136,6 +119,36 @@ img.socialIcon {
     padding: 0 2rem;
 }
 
+.resume {
+    background-color: #4E567E;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.resume span {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.resume:hover {
+    background-color: #6366f1;
+    transition: background-color 0.3s;
+}
+
+#about h2, #experience h2, #skills h2, #projects h2 {
+    border-bottom: 2px solid #4E567E;
+    padding-bottom: 0.7rem;
+    width: 50%;
+    margin-left: 25%;
+    text-transform: uppercase;
+}
+
+#experience h2 {
+    margin-left: 0;
+}
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -270,4 +283,92 @@ img.socialIcon {
     margin-top: -1rem;
     text-align: justify;
     width: 85%;
+}
+
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.skills-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+}
+
+.skills-section:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.skills-section li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.skills-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    height: 100%;
+    gap: 1rem;
+}
+
+.project-container .box {
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    padding: 24px 16px;
+    text-align: center;
+}
+
+.project-container .box h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.project-description {
+    font-size: 1.1rem;
+}
+
+.project-container .box .project-link-container {
+    margin-top: 1rem;
+}
+
+.project-container .box .project-link-container button {
+    background-color: #4E567E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.project-container .box .project-link-container button:hover {
+    background-color: #6366f1;
+    transition: background-color 0.3s;
 }

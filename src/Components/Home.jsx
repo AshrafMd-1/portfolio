@@ -12,8 +12,19 @@ const Home = ({ name, title }) => {
       <div classList="home-text" className="home-data" style={{ color: "white" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
+        <button
+          className="resume"
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1kr7J5kL5ngJxRZaYqUEqSOvxLBSC2_Z1/view?usp=sharing",
+              "_blank"
+            )
+          }
+        >
+          <span>Get Resume</span>
+        </button>
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
+      <div style={{ position: "absolute", bottom: "3rem", left: "48%" }}>
         <img
           src={arrowSvg}
           style={{

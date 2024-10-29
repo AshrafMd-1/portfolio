@@ -1,47 +1,45 @@
 import React from "react";
-import image from "../images/backgrounds/motion-background.jpg";
+import image from "../images/backgrounds/skill_bg.jpg";
 
-const imageAltText = "purple and blue abstract background";
-const description =
-  "I'm a CSE (Computer Science and Engineering) student studying at Institute of Aeronautical Engineering. I enjoy creating unique and simple apps that help solve people's problems.";
-const skillsList = ["Full stack development", "Machine learning", "Devops", "Cloud computing"];
-const detailOrQuote =
-  "I’m a passionate computer science student and proficient MERN developer with a strong foundation in Python, JavaScript, and Java. My expertise spans NLP and machine learning, gained through projects and coursework. I enjoy tackling complex problems and am eager to apply my skills in real-world, impactful technologies.";
-
-const About = () => {
+const imageAltText = "purple and red & blue abstract background";
+const skillSection = {
+  "Programming Languages": ["Python", "JS", "Java", "TypeScript"],
+  Frontend: ["React", "HTML", "CSS", "Tailwind CSS"],
+  Backend: ["Node.js", "Express", "FastAPI", "Flask"],
+  Databases: ["MongoDB", "PostgreSQL", "MySQL"],
+  Cloud: ["Azure", "AWS"],
+  "Developer Tools": ["Git", "GitHub", "Docker", "Postman"],
+};
+const Skills = () => {
   return (
-    <section className="padding" id="about">
+    <section className="padding" id="skills">
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",
           width: "50%",
-          padding: "4rem",
+          padding: "2rem",
           margin: "3rem auto",
+          borderRadius: "10%",
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
-        <p className="large">{description}</p>
-        <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
+        <h2>Skills</h2>
+        <div className={"skills-container"}>
+          {Object.keys(skillSection).map((section) => (
+            <div key={section} className="skills-section">
+              <h3>{section}</h3>
+              <ul>
+                {skillSection[section].map((skill) => (
+                  <li key={skill}>{skill}</li>
+                ))}
+              </ul>
+            </div>
           ))}
-        </ul>
-        <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        </div>
       </div>
     </section>
   );
 };
 
-export default About;
+export default Skills;
