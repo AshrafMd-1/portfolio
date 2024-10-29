@@ -338,6 +338,7 @@ img.socialIcon {
 .project-container .box {
     border-radius: 10px;
     border: 2px solid #e0e7ff;
+    background-color: #FFFFFF;
     width: 40%;
     height: 100%;
     flex-direction: column;
