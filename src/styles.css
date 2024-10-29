@@ -71,7 +71,7 @@ p {
 }
 
 p.large {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 p.small {
@@ -160,6 +160,15 @@ img.socialIcon {
     }
 }
 
+#experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 2rem 0;
+}
+
 #experience-list {
     display: flex;
     flex-direction: column;
@@ -169,7 +178,6 @@ img.socialIcon {
 
 .experience-card {
     background-color: white;
-    padding: 1rem;
     border-radius: 0.75rem;
     border: 3px solid #e0e7ff;
 }
@@ -252,12 +260,12 @@ img.socialIcon {
     font-size: 1.19rem;
     font-weight: 700;
     text-align: center;
-    margin-top: 3px;
+    margin-top: 5px;
     letter-spacing: 1px;
 }
 
 .experience-description {
-    font-size: 1.1rem;
+    font-size: 1.02rem;
     color: #000000;
     margin-top: -1rem;
     text-align: justify;
