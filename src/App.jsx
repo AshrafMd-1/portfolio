@@ -7,6 +7,7 @@ import Home from "./Components/Home";
 import Projects from "./Components/Projects";
 
 import "./styles.css";
+import Experience from "./Components/Experience";
 
 const siteProps = {
   name: "Ashraf Mohammed",
@@ -25,6 +26,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Experience />
       <Projects />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>

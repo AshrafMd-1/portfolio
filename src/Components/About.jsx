@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/motion-background.jpg";
+import image from "../images/backgrounds/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 const description =
