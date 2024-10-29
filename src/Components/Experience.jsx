@@ -54,7 +54,9 @@ const Experience = () => {
   return (
     <section className="padding" id="experience">
       <h2 style={{ textAlign: "center" }}>Experience</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div
+        style={{ display: "flex", flexDirection: "row", paddingTop: "2rem", paddingBottom: "1rem" }}
+      >
         <div className="container" id="experience-list">
           {experienceList.map((experience) => (
             <div className="experience-card" key={experience.id}>
