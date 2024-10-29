@@ -3,11 +3,11 @@
   "version": "1.0.1",
   "description": "Portfolio for Ashraf",
   "source": "src/index.html",
-  "homepage": "http://Ashrafmd-1.github.io",
+  "homepage": "http://Ashrafmd-1.github.io/portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Ashrafmd-1.github.io'",
+    "build-gh": "parcel build --public-url 'https://Ashrafmd-1.github.io/portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
