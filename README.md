@@ -1,3 +1,3 @@
 # Ashraf Projects
 
-ashrafmd-1.github.io/portfolio/
+ashrafmd-1.github.io
