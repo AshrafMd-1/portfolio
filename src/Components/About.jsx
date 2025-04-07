@@ -12,6 +12,7 @@ const About = () => {
   return (
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
+      <p>ashrafmd0506@gmail.com</p>
       <div
         style={{
           backgroundColor: "white",
