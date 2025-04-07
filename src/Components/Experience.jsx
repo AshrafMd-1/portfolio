@@ -1,7 +1,7 @@
 import React from "react";
-import ohcnLogo from "./../images/experience/ohcn.jpg";
-import gdscLogo from "./../images/experience/gdsc.jpg";
-import rinexLogo from "./../images/experience/rinex.jpg";
+import ohcnLogo from "../images/experience/ohcn.jpg";
+import gdscLogo from "../images/experience/gdsc.jpg";
+import rinexLogo from "../images/experience/rinex.jpg";
 
 const experienceList = [
   {
