@@ -6,10 +6,8 @@
   "homepage": "http://Ashrafmd-1.github.io/portfolio",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Ashrafmd-1.github.io/portfolio'",
-    "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build --public-url ./",
+    "serve": "serve dist"
   },
   "author": "Ashraf MD",
   "dependencies": {
