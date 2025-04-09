@@ -16,7 +16,7 @@ const Home = ({ name, title }) => {
           className="resume"
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1kr7J5kL5ngJxRZaYqUEqSOvxLBSC2_Z1/view?usp=sharing",
+              "https://drive.google.com/file/d/1Rq3POzim2phpDDZqJR0GL_K-ED3mR4g2/view?usp=sharing",
               "_blank"
             )
           }
